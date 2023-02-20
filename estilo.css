@@ -33,6 +33,7 @@ body {
 
 header {
     background-color: var(--cor1);
+    height: 100vh;
 }
 
 div#logo {
@@ -42,18 +43,19 @@ div#logo {
 h1 {
     font-family: var(--fontetitulos);
     padding: 20px;
+    font-size: 7vh;
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
+    height: 100vh;
     
     
 }
 
 div#sobre {
-    height: 450px;
-    
+    height: 100vh;
     background-image: url(imagens/sobre.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -79,7 +81,7 @@ div#txt1 > p {
 div#bebidas {
     display: flex;
     justify-content: flex-end;
-    height: 450px;
+    height: 100vh;
     background-image: url(imagens/bebidas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,7 +101,7 @@ div#txt2 {
 div#doces {
     display: flex;
     justify-content: flex-start;
-    height: 450px;
+    height: 100vh;
     background-image: url(imagens/doces.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,7 +121,7 @@ div#txt3 {
 div#salgados {
     display: flex;
     justify-content: flex-end;
-    height: 450px;
+    height: 100vh;
     background-image: url(imagens/salgados.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +141,7 @@ div#txt4 {
 div#contato {
     display: flex;
     justify-content: flex-start;
-    height: 450px;
+    height: 100vh;
     background-image: url(imagens/contato.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,5 +169,5 @@ div#txt5 {
 ul {
     list-style-type: none;
     line-height: 2;
-    font-size: 1.2em;
+    font-size: 5vh;
 }
