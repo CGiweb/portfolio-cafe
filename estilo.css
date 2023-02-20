@@ -48,6 +48,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     
+    
 }
 
 div#sobre {
@@ -56,6 +57,7 @@ div#sobre {
     background-image: url(imagens/sobre.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 div#txt1 {
@@ -81,6 +83,7 @@ div#bebidas {
     background-image: url(imagens/bebidas.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 
@@ -100,6 +103,7 @@ div#doces {
     background-image: url(imagens/doces.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 
@@ -119,6 +123,7 @@ div#salgados {
     background-image: url(imagens/salgados.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 
@@ -138,6 +143,7 @@ div#contato {
     background-image: url(imagens/contato.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
 }
 
