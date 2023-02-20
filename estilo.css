@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+:root {
+    --cor1: #401C02;
+    --cor2: #816757;
+    --cor3: #D8AA7C;
+    --corfonte1: #E7DEDE;
+    --corfonte2: #5F3F32;
+    --corfonte3: #765D4B;
+    --corfonte4: #5F3F32;
+    --corfonte5: #C08634;
+    --corfonte6: #401C02;
+    --cortransp1: #d8aa7c94;
+    --cortransp2: #401c02ae;
+    --cortransp3: #e7dede9e;
+    --cortransp4: #bea99f9e;
+
+    --fontetitulos: 'Libre Baskerville', serif;
+    --fontetextos: 'Belleza', sans-serif;
+
+
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--cor1);
+}
+
+div#logo {
+    background-color: var(--cor1);
+}
+
+h1 {
+    font-family: var(--fontetitulos);
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div#sobre {
+    height: 450px;
+    
+    background-image: url(imagens/sobre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#txt1 {
+    background-color: var(--cortransp1);
+    width: 50%;
+    height: 100%;
+    font-family: var(--fontetextos);
+    color: var(--corfonte2);
+    
+
+}
+
+div#txt1 > p {
+    padding: 0px 20px 0px 20px;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+div#bebidas {
+    display: flex;
+    justify-content: flex-end;
+    height: 450px;
+    background-image: url(imagens/bebidas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div#txt2 {
+    text-align: left;
+    background-color: var(--cortransp2);
+    width: 50%;
+    height: 100%;
+    font-family: var(--fontetextos);
+    color: var(--corfonte1);    
+}
+
+div#doces {
+    display: flex;
+    justify-content: flex-start;
+    height: 450px;
+    background-image: url(imagens/doces.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div#txt3 {
+    text-align: left;
+    background-color: var(--cortransp3);
+    width: 50%;
+    height: 100%;
+    font-family: var(--fontetextos);
+    color: var(--corfonte4);    
+}
+
+div#salgados {
+    display: flex;
+    justify-content: flex-end;
+    height: 450px;
+    background-image: url(imagens/salgados.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div#txt4 {
+    text-align: left;
+    background-color: var(--cortransp2);
+    width: 50%;
+    height: 100%;
+    font-family: var(--fontetextos);
+    color: var(--corfonte5);    
+}
+
+div#contato {
+    display: flex;
+    justify-content: flex-start;
+    height: 450px;
+    background-image: url(imagens/contato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div#txt5 {
+    text-align: left;
+    background-color: var(--cortransp4);
+    width: 50%;
+    height: 100%;
+    font-family: var(--fontetextos);
+    color: var(--corfonte6);    
+}
+
+
+
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    line-height: 2;
+    font-size: 1.2em;
+}
