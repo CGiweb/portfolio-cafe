@@ -29,6 +29,8 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-color: var(--cor1);
+    
 }
 
 header {
@@ -50,6 +52,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
+    width: 100vw;
     
     
 }
@@ -151,7 +154,7 @@ div#contato {
 
 div#txt5 {
     text-align: left;
-    background-color: var(--cortransp4);
+    background-color: var(--cortransp3);
     width: 50%;
     height: 100%;
     font-family: var(--fontetextos);
@@ -159,15 +162,150 @@ div#txt5 {
 }
 
 
-
-
-
-
-
-
-
 ul {
     list-style-type: none;
     line-height: 2;
     font-size: 5vh;
+}
+
+div#logo-contato {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    
+}
+
+div#logo-contato > p {
+    font-size: 2em;
+}
+
+div#logo-contato > img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+div.texto {
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5em;
+    background-color: var(--cor1);
+    color: var(--corfonte1);
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: var(--corfonte1);
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 900px){
+    div.texto {
+        font-size: 2vh;
+    }
+
+    ul {
+        font-size: 4vh;
+    }
+
+    div#sobre {
+        background-position: right bottom;
+    }
+
+    div#bebidas {
+        background-position: left center;
+    }
+
+    div#doces {
+        background-position: center bottom;
+    }
+
+    div#salgados {
+        background-position: center bottom;
+    }
+
+    div#contato {
+        background-position: center center;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    ul {
+        font-size: 3vh;
+    }
+}
+
+@media only screen and (max-width: 530px){
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        height: 50vh;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    div#logo > img {
+        width: 50vw;
+        height: 50vh;
+    }
+    
+    div#txt1 {
+        font-size: 3vh;
+        width: 100%;
+    }
+    
+    div#txt2 {
+        font-size: 2vh;
+        width: 100%;
+    }
+
+    div#txt3 {
+        font-size: 2vh;
+        width: 100%;
+    }
+
+    div#txt4 {
+        font-size: 2vh;
+        width: 100%;
+    }
+
+    div#txt5 {
+        font-size: 2vh;
+        width: 100%;
+    }
+
+    ul {
+        font-size: 4vh;
+    }
+
+    div#sobre {
+        background-position: right bottom;
+    }
+
+    div#bebidas {
+        background-position: left center;
+    }
+
+    div#doces {
+        background-position: center bottom;
+    }
+
+    div#salgados {
+        background-position: center bottom;
+    }
+
+    div#contato {
+        background-position: center center;
+    }
 }
